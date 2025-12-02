@@ -1,0 +1,19 @@
+html, body {
+  height: 100%; /* Розтягуємо html і body на всю висоту */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center; /* Центруємо по горизонталі */
+  align-items: center;    /* Центруємо по вертикалі */
+  background-color: #242424; /* Збережемо темний фон */
+  color: white; /* Зробимо текст білим */
+}
+
+/* Можемо прибрати стилі з #root, бо body вже все робить, 
+   але можемо і залишити, це не завадить */
+#root {
+  text-align: center;
+}
